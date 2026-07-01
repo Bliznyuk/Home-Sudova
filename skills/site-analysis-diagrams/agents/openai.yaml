@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Analysis Diagrams"
+  short_description: "Mermaid diagrams for site facts and dependencies"
+  default_prompt: "Use $site-analysis-diagrams to diagram House Sudova dependencies, phases, or missing facts."

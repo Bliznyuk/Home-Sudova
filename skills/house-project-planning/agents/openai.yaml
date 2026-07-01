@@ -1,0 +1,4 @@
+interface:
+  display_name: "House Project Planning"
+  short_description: "Persistent planning for House Sudova work"
+  default_prompt: "Use $house-project-planning to create or update a durable House Sudova planning log."

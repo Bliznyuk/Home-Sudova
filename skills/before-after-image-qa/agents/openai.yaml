@@ -1,0 +1,4 @@
+interface:
+  display_name: "Before After Image QA"
+  short_description: "Check visualization drift against source images"
+  default_prompt: "Use $before-after-image-qa to compare a House Sudova source photo and generated after image."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "House Source Spec"
+  short_description: "Track known, observed, assumed, and missing facts"
+  default_prompt: "Use $house-source-spec to build a fact register before planning House Sudova work."

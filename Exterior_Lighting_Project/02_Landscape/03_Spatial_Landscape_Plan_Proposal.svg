@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760" role="img" aria-labelledby="title desc">
+  <title id="title">House Sudova spatial landscape proposal overlay</title>
+  <desc id="desc">Conceptual landscape plan proposal drawn over the real marked measured site plan. It marks proposed lawn, fire zone, covered gazebo, paths, planting zones, tree candidates, and service clearances.</desc>
+  <defs>
+    <style>
+      .page { fill: #f7f3ea; }
+      .plan-frame { fill: #ffffff; stroke: #4f4a3f; stroke-width: 2; }
+      .source { opacity: 0.82; }
+      .known { fill: none; stroke: #1f2933; stroke-width: 3; stroke-dasharray: 8 6; }
+      .lawn { fill: #7fb36b; fill-opacity: 0.42; stroke: #3f7b45; stroke-width: 3; }
+      .bed { fill: #6f8f58; fill-opacity: 0.36; stroke: #476b3e; stroke-width: 2; }
+      .hydrangea { fill: #dce9ef; fill-opacity: 0.78; stroke: #7193a2; stroke-width: 2; }
+      .acid { fill: #cdb7d8; fill-opacity: 0.55; stroke: #7c5c8d; stroke-width: 2; stroke-dasharray: 7 5; }
+      .grass { fill: #d9c78d; fill-opacity: 0.72; stroke: #a08c4d; stroke-width: 2; }
+      .flower { fill: #efc1c9; fill-opacity: 0.74; stroke: #9f6672; stroke-width: 2; }
+      .weigela { fill: #8e4359; fill-opacity: 0.7; stroke: #5d2b3a; stroke-width: 2; }
+      .tree { fill: #436f3e; fill-opacity: 0.86; stroke: #29482a; stroke-width: 3; }
+      .purpletree { fill: #6c3f52; fill-opacity: 0.88; stroke: #432633; stroke-width: 3; }
+      .hard { fill: #d8d0bd; fill-opacity: 0.72; stroke: #6b6254; stroke-width: 3; }
+      .fire { fill: #d9863f; fill-opacity: 0.84; stroke: #7c421f; stroke-width: 4; }
+      .gazebo { fill: #9b7151; fill-opacity: 0.86; stroke: #4d3528; stroke-width: 4; }
+      .path { fill: none; stroke: #d9d2c1; stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+      .path-edge { fill: none; stroke: #716857; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 7 5; }
+      .service { fill: none; stroke: #d99b34; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 18 12; }
+      .service-edge { fill: none; stroke: #8a5b13; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .buffer { fill: #fff1bd; fill-opacity: 0.42; stroke: #b17a18; stroke-width: 3; stroke-dasharray: 8 6; }
+      .danger { fill: #ffe4df; fill-opacity: 0.45; stroke: #b84b34; stroke-width: 3; stroke-dasharray: 9 6; }
+      .title { font-family: Arial, sans-serif; fill: #2f3329; font-size: 28px; font-weight: 700; letter-spacing: 0; }
+      .subtitle { font-family: Arial, sans-serif; fill: #565d4c; font-size: 18px; letter-spacing: 0; }
+      .label { font-family: Arial, sans-serif; fill: #22271f; font-size: 18px; font-weight: 700; letter-spacing: 0; }
+      .small { font-family: Arial, sans-serif; fill: #30362b; font-size: 14px; font-weight: 700; letter-spacing: 0; }
+      .tiny { font-family: Arial, sans-serif; fill: #41483b; font-size: 12px; letter-spacing: 0; }
+      .legend { font-family: Arial, sans-serif; fill: #30362b; font-size: 15px; letter-spacing: 0; }
+      .box { fill: #fffaf0; stroke: #d2c6ac; stroke-width: 2; }
+      .callout { fill: #fffaf0; stroke: #a69a80; stroke-width: 2; }
+      .proposal { fill: #5e4a32; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="page" width="1180" height="760"/>
+
+  <text class="title" x="40" y="42">House Sudova: просторова пропозиція ландшафту поверх реального плану</text>
+  <text class="subtitle" x="40" y="70">Концепція для узгодження. Не будівельне креслення. Північ, ухили, ґрунт, полив, електрика і точні відступи ще Missing.</text>
+
+  <g id="plan" transform="translate(40 95)">
+    <rect class="plan-frame" x="-8" y="-8" width="515" height="630" rx="8"/>
+    <image class="source" href="../../Materials/Plans/marked-measured-site-plan.jpg" x="0" y="0" width="499" height="614" preserveAspectRatio="none"/>
+
+    <!-- Known service buffers from marked plan -->
+    <circle class="buffer" cx="303" cy="94" r="42"/>
+    <text class="small" x="330" y="79">буфер свердловини</text>
+    <text class="tiny" x="330" y="96">не садити дерева / не мостити</text>
+
+    <ellipse class="danger" cx="425" cy="520" rx="74" ry="86"/>
+    <text class="small" x="330" y="548">буфер стічних ям</text>
+    <text class="tiny" x="330" y="565">люки + асенізаторський доступ</text>
+
+    <!-- Proposed open lawn and meadow/lawn panels -->
+    <path class="lawn" d="M206 118 C238 106 282 118 320 130 C356 144 391 156 421 148 L423 250 C394 258 356 258 327 246 C296 234 267 214 232 210 C205 206 180 215 160 229 L153 170 C166 150 184 130 206 118 Z"/>
+    <text class="label" x="190" y="186">A. Газон / lawn</text>
+    <text class="tiny" x="190" y="203">від тераси у верхню садову частину</text>
+
+    <!-- Fire and gazebo proposal -->
+    <ellipse class="hard" cx="363" cy="170" rx="48" ry="36"/>
+    <circle class="fire" cx="363" cy="170" r="18"/>
+    <text class="small" x="388" y="165">B. зона вогню</text>
+    <text class="tiny" x="388" y="181">open-sky, негорюче мощення</text>
+
+    <rect class="gazebo" x="396" y="94" width="62" height="54" rx="6"/>
+    <line x1="405" y1="106" x2="448" y2="106" stroke="#4d3528" stroke-width="4"/>
+    <line x1="405" y1="122" x2="448" y2="122" stroke="#4d3528" stroke-width="4"/>
+    <line x1="405" y1="138" x2="448" y2="138" stroke="#4d3528" stroke-width="4"/>
+    <text class="small" x="354" y="90">C. крита альтанка</text>
+    <text class="tiny" x="354" y="106">поруч із вогнем, не над ним</text>
+
+    <!-- Paths -->
+    <path class="path" d="M255 171 C282 160 322 157 346 168"/>
+    <path class="path-edge" d="M255 171 C282 160 322 157 346 168"/>
+    <text class="tiny" x="264" y="151">крокова доріжка тераса -> fire</text>
+
+    <path class="path" d="M262 548 C260 505 270 440 294 372"/>
+    <path class="path-edge" d="M262 548 C260 505 270 440 294 372"/>
+    <text class="tiny" x="278" y="470">основний маршрут брама -> вхід</text>
+
+    <path class="service" d="M274 548 C330 540 383 532 424 520"/>
+    <path class="service-edge" d="M274 548 C330 540 383 532 424 520"/>
+    <text class="tiny" x="302" y="522">сервіс до стічних ям</text>
+
+    <path class="service" d="M250 172 C263 132 282 111 303 94"/>
+    <path class="service-edge" d="M250 172 C263 132 282 111 303 94"/>
+    <text class="tiny" x="178" y="112">сервіс до свердловини</text>
+
+    <!-- Planting beds -->
+    <path class="bed" d="M140 81 C184 74 233 78 276 92 C243 108 199 126 160 158 C148 171 137 189 130 207 L113 203 L121 116 Z"/>
+    <text class="small" x="68" y="128">P1 периметр</text>
+    <text class="tiny" x="63" y="145">дейція + вейгела + злаки</text>
+
+    <path class="bed" d="M427 154 L460 145 L460 420 L418 414 C430 330 436 242 427 154 Z"/>
+    <text class="small" x="425" y="316">P2 правий</text>
+    <text class="tiny" x="425" y="333">мікс кущів</text>
+
+    <path class="hydrangea" d="M166 148 C198 138 230 135 263 144 L261 178 C222 178 194 186 162 202 C157 183 158 164 166 148 Z"/>
+    <text class="small" x="155" y="135">H1 гортензії</text>
+    <text class="tiny" x="155" y="151">біля тераси, з краплею</text>
+
+    <path class="hydrangea" d="M238 379 C287 380 340 378 393 373 L395 414 C346 424 285 422 235 409 Z"/>
+    <text class="small" x="243" y="438">H2 гортензії + злаки біля входу</text>
+
+    <path class="grass" d="M114 216 L145 220 C143 307 144 392 160 478 L118 495 C103 406 100 299 114 216 Z"/>
+    <text class="small" x="58" y="333">G1 злаки</text>
+    <text class="tiny" x="50" y="350">уздовж навісу</text>
+
+    <path class="flower" d="M375 412 C407 418 434 438 447 470 L424 493 C391 472 361 454 328 447 C344 431 358 419 375 412 Z"/>
+    <text class="small" x="282" y="468">P3 сухі багаторічники</text>
+    <text class="tiny" x="282" y="485">не закривати доступ до ям</text>
+
+    <path class="acid" d="M270 112 C292 108 315 112 338 125 L323 148 C304 140 285 136 264 137 Z"/>
+    <text class="tiny" x="254" y="105">опц. кисла клумба після pH/тіні</text>
+
+    <!-- Tree candidates -->
+    <circle class="purpletree" cx="170" cy="100" r="15"/>
+    <text class="tiny" x="188" y="96">T1 слива Піссарді</text>
+
+    <circle class="tree" cx="425" cy="230" r="15"/>
+    <text class="tiny" x="342" y="232">T2 декоративна яблуня</text>
+
+    <circle class="tree" cx="445" cy="360" r="14"/>
+    <text class="tiny" x="348" y="362">T3 клен Globosum / липа</text>
+
+    <circle class="tree" cx="132" cy="455" r="13"/>
+    <text class="tiny" x="48" y="454">T4 мале дерево / екран</text>
+
+    <!-- Existing/protected envelope reminder -->
+    <rect class="known" x="226" y="202" width="174" height="168" rx="2"/>
+    <text class="proposal" x="235" y="220">будинок: не змінювати</text>
+    <rect class="known" x="154" y="204" width="36" height="177" rx="2"/>
+    <text class="proposal" x="104" y="196">навіс / AC clear</text>
+  </g>
+
+  <g transform="translate(585 100)">
+    <rect class="box" x="0" y="0" width="545" height="590" rx="14"/>
+    <text class="label" x="24" y="36">Легенда і рішення</text>
+    <text class="tiny" x="24" y="62">Статус: Proposal. Базується на marked-measured-site-plan.jpg, не на старій помилковій схемі.</text>
+
+    <circle class="lawn" cx="38" cy="100" r="14"/>
+    <text class="legend" x="64" y="105">A Газон: верхня садова частина від тераси, без перекриття свердловини.</text>
+
+    <circle class="fire" cx="38" cy="138" r="14"/>
+    <text class="legend" x="64" y="143">B Зона вогню: верхній правий садовий карман, open-sky.</text>
+
+    <rect class="gazebo" x="24" y="164" width="28" height="22" rx="3"/>
+    <text class="legend" x="64" y="181">C Крита альтанка: поруч із fire-зоною, але не над полум'ям.</text>
+
+    <rect class="hydrangea" x="24" y="210" width="28" height="20" rx="4"/>
+    <text class="legend" x="64" y="226">H1/H2 Гортензії: біля тераси та входу, тільки з поливом/мульчею.</text>
+
+    <rect class="bed" x="24" y="250" width="28" height="20" rx="4"/>
+    <text class="legend" x="64" y="266">P1/P2 Змішані кущі: дейція, вейгела, гортензія волотиста, злаки.</text>
+
+    <rect class="flower" x="24" y="290" width="28" height="20" rx="4"/>
+    <text class="legend" x="64" y="306">P3 Сухі багаторічники: шавлія, котяча м'ята, очиток, деревій.</text>
+
+    <circle class="purpletree" cx="38" cy="340" r="13"/>
+    <text class="legend" x="64" y="345">T1 Слива Піссарді: верхній лівий периметр, акцент без блокування тераси.</text>
+
+    <circle class="tree" cx="38" cy="378" r="13"/>
+    <text class="legend" x="64" y="383">T2/T3/T4 Малі дерева: яблуня, Globosum/липа, точково для структури.</text>
+
+    <line class="service" x1="24" y1="424" x2="52" y2="424"/>
+    <text class="legend" x="64" y="429">Сервіс: до свердловини, стічних ям, водостоків і AC не перекривати.</text>
+
+    <rect class="callout" x="24" y="460" width="497" height="100" rx="10"/>
+    <text class="small" x="42" y="486">Що ще Missing перед фіналом</text>
+    <text class="tiny" x="42" y="512">1. Північ / сонце: може змінити місця гортензій, рододендронів і дерев.</text>
+    <text class="tiny" x="42" y="535">2. Ґрунт, pH, полив: без цього рододендрони і крупнолисті гортензії не фіксувати.</text>
+    <text class="tiny" x="42" y="558">3. Ухили, вода, електрика: до мощення fire-зони, альтанки і доріжок.</text>
+  </g>
+</svg>

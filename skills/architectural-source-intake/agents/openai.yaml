@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architectural Source Intake"
+  short_description: "Extract cautious facts from house source material"
+  default_prompt: "Use $architectural-source-intake to review House Sudova photos, plans, or markups."

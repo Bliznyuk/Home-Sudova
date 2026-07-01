@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2100" viewBox="0 0 1400 2100" role="img" aria-labelledby="title desc">
+  <title id="title">House Sudova conceptual landscape schematic</title>
+  <desc id="desc">Conceptual not-to-scale landscape zoning diagram showing the house, canopy, terrace, lawn, fire lounge, covered gazebo, paths, planting and service constraints.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f2e9; }
+      .plot { fill: #eef3df; stroke: #5f6f52; stroke-width: 5; stroke-dasharray: 16 10; }
+      .house { fill: #d8d2c5; stroke: #3e4038; stroke-width: 5; }
+      .roof { fill: #4a3e34; opacity: 0.16; }
+      .canopy { fill: #c6ad88; stroke: #5b4632; stroke-width: 4; opacity: 0.88; }
+      .terrace { fill: #d9c5a7; stroke: #6e5738; stroke-width: 4; }
+      .hardscape { fill: #d9d5c9; stroke: #8d8574; stroke-width: 4; }
+      .path { fill: none; stroke: #d8d1c0; stroke-width: 42; stroke-linecap: round; stroke-linejoin: round; }
+      .pathEdge { fill: none; stroke: #827965; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 10 9; }
+      .servicePath { fill: none; stroke: #b9b09d; stroke-width: 28; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 20 14; }
+      .lawn { fill: #83a765; stroke: #5f834c; stroke-width: 3; opacity: 0.92; }
+      .planting { fill: #5f7f4f; opacity: 0.38; stroke: #49673e; stroke-width: 3; }
+      .meadow { fill: #c9d3a2; opacity: 0.8; stroke: #89996b; stroke-width: 3; stroke-dasharray: 14 9; }
+      .firePad { fill: #d8d0bf; stroke: #6d6254; stroke-width: 5; }
+      .fire { fill: #c76f2a; stroke: #6b3f1e; stroke-width: 4; }
+      .gazebo { fill: #b58b5f; stroke: #4d392b; stroke-width: 5; }
+      .service { fill: #c9c2ad; stroke: #756b58; stroke-width: 4; stroke-dasharray: 12 8; }
+      .water { fill: #a8c9cf; stroke: #4f7b85; stroke-width: 4; }
+      .septic { fill: #c6b59b; stroke: #6d604d; stroke-width: 4; }
+      .label { font-family: Inter, Arial, sans-serif; fill: #2f342b; font-size: 31px; font-weight: 700; letter-spacing: 0; }
+      .small { font-family: Inter, Arial, sans-serif; fill: #3e4538; font-size: 24px; font-weight: 600; letter-spacing: 0; }
+      .note { font-family: Inter, Arial, sans-serif; fill: #5b604f; font-size: 22px; letter-spacing: 0; }
+      .tiny { font-family: Inter, Arial, sans-serif; fill: #5b604f; font-size: 19px; letter-spacing: 0; }
+      .legendText { font-family: Inter, Arial, sans-serif; fill: #30352b; font-size: 22px; letter-spacing: 0; }
+      .step { fill: #efe9dc; stroke: #827965; stroke-width: 3; }
+      .tree { fill: #416b3c; opacity: 0.76; stroke: #2e5130; stroke-width: 3; }
+      .shrub { fill: #7d9d5c; opacity: 0.8; stroke: #587443; stroke-width: 2; }
+      .caution { fill: #fff5d6; stroke: #a4823c; stroke-width: 3; }
+      .noScale { fill: #6b4b34; font-family: Inter, Arial, sans-serif; font-size: 24px; font-weight: 800; letter-spacing: 0; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#827965"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="2100"/>
+  <rect x="35" y="35" width="1330" height="2050" rx="24" fill="none" stroke="#a7472c" stroke-width="18"/>
+  <rect x="80" y="145" width="1240" height="96" rx="16" fill="#fff1e8" stroke="#a7472c" stroke-width="5"/>
+  <text x="112" y="205" style="font-family: Inter, Arial, sans-serif; fill: #8d2f1d; font-size: 38px; font-weight: 900; letter-spacing: 0;">ПОМИЛКОВА ЧЕРНЕТКА - НЕ ВИКОРИСТОВУВАТИ ЯК ПЛАН</text>
+
+  <text class="label" x="80" y="82">House Sudova: концептуальна схема ландшафту</text>
+  <text class="note" x="80" y="120">Ця версія просторово ненадійна. Потрібна переробка поверх реального плану / Figma.</text>
+
+  <path class="plot" d="M235 175 L1110 170 L1170 1645 L980 1935 L330 1875 L155 1550 L185 620 Z"/>
+
+  <path class="planting" d="M255 225 L1080 220 L1108 455 C940 410 760 400 620 430 C500 456 375 420 258 485 Z"/>
+  <path class="planting" d="M210 520 C330 560 410 650 410 835 C405 1030 265 1185 210 1395 L170 1545 L145 1240 L160 760 Z"/>
+  <path class="planting" d="M1115 480 L1148 1505 L1035 1770 C1000 1555 980 1350 1015 1115 C1045 890 1055 675 1115 480 Z"/>
+  <path class="meadow" d="M295 1510 C440 1605 740 1615 955 1512 L970 1745 L830 1858 L380 1805 L255 1580 Z"/>
+
+  <ellipse class="lawn" cx="665" cy="1255" rx="335" ry="425"/>
+
+  <rect class="house" x="500" y="560" width="430" height="405" rx="6"/>
+  <rect class="roof" x="470" y="530" width="490" height="465" rx="12"/>
+  <rect class="canopy" x="285" y="560" width="195" height="405" rx="4"/>
+  <rect class="terrace" x="500" y="400" width="270" height="135" rx="4"/>
+  <rect class="step" x="505" y="365" width="260" height="24" rx="4"/>
+  <rect class="hardscape" x="500" y="975" width="430" height="86" rx="4"/>
+  <rect class="step" x="515" y="1080" width="400" height="36" rx="4"/>
+
+  <text class="label" x="575" y="765">Будинок</text>
+  <text class="small" x="566" y="802">геометрію зберегти</text>
+  <text class="small" x="315" y="755">Навіс</text>
+  <text class="tiny" x="314" y="787">паркування / AC</text>
+  <text class="small" x="548" y="475">Тераса</text>
+  <text class="tiny" x="545" y="506">перехід у сад</text>
+  <text class="small" x="610" y="1030">Вхідний подіум</text>
+
+  <circle class="water" cx="855" cy="320" r="43"/>
+  <text class="small" x="915" y="327">Свердловина</text>
+  <text class="tiny" x="915" y="354">доступ не блокувати</text>
+
+  <circle class="septic" cx="1008" cy="1736" r="35"/>
+  <circle class="septic" cx="1082" cy="1788" r="35"/>
+  <text class="small" x="745" y="1752">Стічні ями</text>
+  <text class="tiny" x="740" y="1782">люки і сервісний маршрут clear</text>
+
+  <path class="path" d="M560 1630 C580 1500 615 1405 660 1320 C705 1234 745 1150 710 1075"/>
+  <path class="pathEdge" d="M560 1630 C580 1500 615 1405 660 1320 C705 1234 745 1150 710 1075"/>
+  <text class="tiny" x="735" y="1338" transform="rotate(-66 735 1338)">крокова доріжка</text>
+
+  <path class="path" d="M645 1845 C665 1715 660 1648 610 1585"/>
+  <path class="pathEdge" d="M645 1845 C665 1715 660 1648 610 1585"/>
+  <text class="tiny" x="665" y="1712" transform="rotate(-78 665 1712)">до альтанки</text>
+
+  <path class="servicePath" d="M1000 1070 C1085 1235 1090 1510 1032 1698"/>
+  <text class="tiny" x="1052" y="1350" transform="rotate(82 1052 1350)">сервісна гравійна траса</text>
+
+  <ellipse class="firePad" cx="555" cy="1635" rx="160" ry="130"/>
+  <circle class="fire" cx="555" cy="1635" r="42"/>
+  <path d="M555 1598 C585 1630 592 1665 555 1682 C518 1665 525 1630 555 1598 Z" fill="#f6b247" opacity="0.86"/>
+  <text class="label" x="405" y="1810">Fire lounge</text>
+  <text class="tiny" x="402" y="1840">open-sky, негорюче мощення</text>
+
+  <rect class="gazebo" x="705" y="1535" width="230" height="185" rx="10"/>
+  <line x1="725" y1="1560" x2="915" y2="1560" stroke="#5a422f" stroke-width="10"/>
+  <line x1="725" y1="1605" x2="915" y2="1605" stroke="#5a422f" stroke-width="10"/>
+  <line x1="725" y1="1650" x2="915" y2="1650" stroke="#5a422f" stroke-width="10"/>
+  <text class="label" x="705" y="1494">Крита альтанка</text>
+  <text class="tiny" x="705" y="1524">поруч із вогнем, не над ним</text>
+
+  <rect class="caution" x="205" y="995" width="240" height="116" rx="14"/>
+  <text class="small" x="225" y="1035">AC / сервіс</text>
+  <text class="tiny" x="225" y="1065">не закривати</text>
+  <text class="tiny" x="225" y="1092">посадками/екранами</text>
+
+  <text class="label" x="548" y="1262">Центральний газон</text>
+  <text class="small" x="588" y="1298">основна відкрита площа</text>
+
+  <text class="small" x="305" y="330">Периметральні посадки</text>
+  <text class="tiny" x="305" y="360">кущі + злаки + малі дерева</text>
+
+  <circle class="tree" cx="345" cy="470" r="42"/>
+  <circle class="tree" cx="1045" cy="620" r="46"/>
+  <circle class="tree" cx="1010" cy="980" r="36"/>
+  <circle class="tree" cx="375" cy="1340" r="36"/>
+  <circle class="tree" cx="915" cy="1420" r="40"/>
+
+  <circle class="shrub" cx="310" cy="1060" r="24"/>
+  <circle class="shrub" cx="355" cy="1118" r="24"/>
+  <circle class="shrub" cx="408" cy="1168" r="24"/>
+  <circle class="shrub" cx="945" cy="520" r="24"/>
+  <circle class="shrub" cx="1000" cy="548" r="24"/>
+  <circle class="shrub" cx="1048" cy="584" r="24"/>
+
+  <rect class="service" x="335" y="1840" width="370" height="72" rx="14"/>
+  <text class="small" x="365" y="1888">Брама / заїзд / хвіртка</text>
+
+  <path d="M635 1840 C620 1718 585 1682 560 1765" class="pathEdge" marker-end="url(#arrow)"/>
+
+  <rect x="80" y="1928" width="1240" height="118" rx="18" fill="#fffaf0" stroke="#d2c7ad" stroke-width="3"/>
+  <text class="noScale" x="112" y="1972">Схема для узгодження, не для будівництва</text>
+  <text class="note" x="112" y="2011">Фіксує логіку зон. Точні місця, радіуси, відступи, ухили, дренаж і рослини підтвердити після геодезії, півночі, ґрунту, поливу й електрики.</text>
+
+  <g transform="translate(80 1470)">
+    <rect x="0" y="0" width="300" height="260" rx="16" fill="#fffaf0" stroke="#d2c7ad" stroke-width="3"/>
+    <text class="small" x="24" y="40">Легенда</text>
+    <rect class="house" x="24" y="68" width="32" height="24"/>
+    <text class="legendText" x="72" y="89">будинок / тверді зони</text>
+    <rect class="lawn" x="24" y="108" width="32" height="24"/>
+    <text class="legendText" x="72" y="129">газон</text>
+    <rect class="planting" x="24" y="148" width="32" height="24"/>
+    <text class="legendText" x="72" y="169">посадки</text>
+    <circle class="fire" cx="40" cy="205" r="16"/>
+    <text class="legendText" x="72" y="213">вогонь</text>
+    <rect class="gazebo" x="24" y="226" width="32" height="22"/>
+    <text class="legendText" x="72" y="246">альтанка</text>
+  </g>
+</svg>

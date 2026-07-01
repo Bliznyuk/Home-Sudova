@@ -1,0 +1,4 @@
+interface:
+  display_name: "House HTML Report Builder"
+  short_description: "Source-backed HTML reports for House Sudova"
+  default_prompt: "Use $house-html-report-builder to package House Sudova findings into a local HTML report."
